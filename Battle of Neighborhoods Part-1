@@ -1,0 +1,27 @@
+Introduction:
+This final project explores the best locations for opening an Italian restaurant in Brooklyn, New York. New York is the most densely populated and is a major city 
+in the United States. New York City is composed of 5 boroughs and they are Brooklyn, Queens, Manhattan, Bronx, and Staten Island. Of these 5 boroughs, 
+Brooklyn is the largest borough by population. New York has the largest population of Italians at 3.1 million people. People migrated from many parts of the world. 
+There are many restaurants in New York City with different cuisines such as American, Italian, Chinese, Indian etc. Here the audience can be anyone who is looking 
+to open or invest in a restaurant.
+
+Data:
+For this project we need the following data: 
+1. New York City dataset that contains Borough, Neighborhoods along with their latitudes and longitudes    
+Data Source: https://cocl.us/new_york_datase      
+Description: This dataset contains the required information. And we will use this dataset to explore various neighborhoods of New York City.
+
+2. Italian restaurants in Brooklyn neighborhood of New York City       
+Data Source: Foursquare API 
+Description: By using this API we will get all the venues in the Brooklyn neighborhood. We can filter these venues to get only Italian restaurants.
+
+Approach:
+1. Collect the New York City data from the above-mentioned dataset.
+
+2. We will get all the venues present in the Brooklyn Neighborhood using the Foursquare API.
+
+3. Filter out all the venues that are Italian restaurants.
+
+4. Analyzing the data using Kmeans Clustering and visualizing the neighborhoods with the number of Italian restaurants present.
+
+5. In the end, compare these neighborhoods to find the best possible location for opening up an Italian restaurant.
